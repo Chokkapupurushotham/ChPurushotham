@@ -1,0 +1,89 @@
+Laptop Price Analysis
+
+This project explores the relationship between laptop specifications and their market prices using data analytics and machine learning. The goal was to develop a predictive model that estimates the price of a laptop based on its technical features. This combines financial analysis, data science, and machine learning techniques to draw meaningful insights from structured product data.
+
+
+Objective
+
+To build a regression-based machine learning model capable of predicting laptop prices by analyzing key specifications such as processor type, RAM, storage, screen resolution, and other hardware characteristics.
+
+
+Tools and Technologies
+
+Languages and Platforms: Python, SQL, Excel
+
+Libraries: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
+
+Development Environment: Jupyter Notebook, VS Code
+
+Domain Focus: Data Analysis, Financial Modeling
+
+Project Level: Advanced
+
+
+
+Dataset Description
+
+The dataset contains information on 1,275 laptops and includes 23 features such as brand, screen size, operating system, processor frequency, storage type, and GPU details. The target variable is the laptop price in Euros. The data was preprocessed to remove duplicates, handle formatting issues, and extract useful features for analysis.
+ 
+
+
+Approach and Methodology
+
+1. Data Preprocessing
+
+Cleaned the data and removed duplicate entries
+
+Converted categorical features using one-hot encoding
+
+Handled missing values to ensure data integrity
+
+
+
+2. Exploratory Data Analysis
+
+Conducted univariate and bivariate analysis using bar charts, pie charts, scatter plots, and box plots
+
+Analyzed how specifications such as touchscreen, Retina display, and storage type influence laptop prices
+
+
+
+3. Feature Engineering
+
+Transformed complex columns (like CPU and screen specs) into more usable formats
+
+Separated primary and secondary storage attributes for clarity
+
+
+
+4. Model Building
+
+Used Linear Regression as a baseline model to predict laptop prices
+
+Evaluated model performance using Mean Squared Error and R-squared metrics
+
+
+
+5. Results Visualization
+
+Created scatter plots to compare actual versus predicted prices
+
+Highlighted trends and pricing patterns across brands and configurations
+
+
+Key Takeaways
+
+Laptops with touchscreens, high RAM, SSDs, and higher CPU frequencies tend to have higher prices.
+
+Apple devices form a distinct pricing cluster compared to other brands.
+
+Storage configuration, screen size, and GPU model significantly affect price.
+
+
+Future Enhancements
+
+Implement advanced models such as Random Forest, XGBoost, or Support Vector Regression for improved accuracy.
+
+Incorporate cross-validation and hyperparameter tuning.
+
+Merge with external price trend data for real-time predictive capability.
