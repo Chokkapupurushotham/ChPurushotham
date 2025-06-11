@@ -1,0 +1,85 @@
+Coca-Cola Stock – Live and Updated
+
+This project dives into the historical and live stock performance of Coca-Cola (Ticker: KO), blending financial analytics with machine learning and interactive dashboards. It focuses on understanding price trends, building predictive models, and testing trading strategies using technical indicators.
+
+The motivation behind this project was to create an end-to-end stock analysis system—from raw data to real-time insights. It uses Yahoo Finance data, calculates financial indicators, trains a machine learning model to predict future prices, and includes a backtesting system to evaluate strategy performance.
+
+
+
+Objectives
+
+Analyze Coca-Cola’s stock performance over time
+
+Build predictive models for stock price forecasting
+
+Visualize trends using technical indicators like SMA, EMA, MACD, RSI, and more
+
+Implement backtesting to test investment strategies
+
+Create a live prediction interface using yfinance and optionally deploy it via Streamlit
+
+
+
+
+Key Technologies Used
+
+Languages: Python, SQL
+
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Plotly, yfinance, FINTA, Backtesting
+
+Environment: Jupyter Notebook, Excel
+
+Deployment (optional): Streamlit or Flask
+
+
+
+
+Approach & Methodology
+
+1. Data Collection: Pulled Coca-Cola stock data from Yahoo Finance API (2015–2023)
+
+
+2. Data Cleaning: Filled missing values, formatted columns, and handled dividends/splits
+
+
+3. Feature Engineering: Created rolling averages, daily returns, volatility, and technical indicators
+
+
+4. EDA: Visualized price trends, heatmaps, and moving averages
+
+
+5. Model Building: Used Random Forest Regressor to predict closing prices
+
+
+6. Live Updates: Integrated live prediction system using minute-level data
+
+
+7. Backtesting: Tested strategies using Backtesting.py, including SMA/EMA crossovers and optimization
+
+
+8. Visualization: Used Plotly and Matplotlib for detailed charts, candlesticks, and financial overlays
+
+
+
+
+What I Learned
+
+Practical use of technical indicators in financial modeling
+
+How to clean and transform stock data for time series analysis
+
+The importance of testing and validating trading strategies
+
+How to make financial models interactive and real-time
+
+
+
+Future Plans
+
+Improve model accuracy with deep learning (LSTM/GRU)
+
+Expand to multiple stocks and build a portfolio analyzer
+
+Add sentiment analysis from financial news or social media
+
+Deploy as a live app for end-users to explore and predict stock trends
